@@ -11,3 +11,4 @@
 * **HTML5** — структурирование контента, семантические теги, DOM-структура.
 * **CSS3** — Flexbox верстка, анимации, плавные переходы (`transition`), адаптивность под мобильные экраны.
 * **JavaScript (ES6+)** — обработка событий (`addEventListener`), работа со случайными числами (`Math.random`), динамическое управление DOM-деревом (`textContent`), циклы ветвления (`if/else if`).
+check out the project  https://beka332.github.io/rock-paper-scissors-ai/
