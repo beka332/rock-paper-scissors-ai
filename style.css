@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    background-color: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 16px;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.ai-box {
+    background-color: #1e293b;
+    border-left: 4px solid #0ea5e9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.ai-avatar {
+    font-weight: bold;
+    color: #38bdf8;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#ai-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.result-box {
+    background-color: #0f172a;
+    border: 1px dashed #334155;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.choice {
+    font-size: 16px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+}
+
+.choice span {
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+#round-result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #38bdf8;
+}
+
+.controls {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    flex: 1;
+    background-color: rgba(14, 165, 233, 0.1);
+    border: 1px solid #0ea5e9;
+    color: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0ea5e9;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}

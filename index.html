@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake AI NPC Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="ai-box">
+            <div class="ai-avatar">🤖 AI</div>
+            <p id="ai-text">Ха, ну привет! Думаешь, сможешь обыграть алгоритм? Выбирай оружие.</p>
+        </div>
+
+        <div class="result-box">
+            <div class="choice">Вы: <span id="player">—</span></div>
+            <div class="choice">ИИ: <span id="ai">—</span></div>
+            <div id="round-result">Матч еще не начался</div>
+        </div>
+
+        <div class="controls">
+            <button class="btn" id="rock">Камень 🪨</button>
+            <button class="btn" id="scissors">Ножницы ✂️</button>
+            <button class="btn" id="paper">Бумага 📄</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
